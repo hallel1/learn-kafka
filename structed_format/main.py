@@ -6,6 +6,7 @@ import mysql.connector
 import psycopg2
 
 import config
+
 # import pandas as pd
 
 def main():
