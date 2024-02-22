@@ -1,7 +1,7 @@
 from confluent_kafka import Consumer
 
 
-def main():
+def main(var):
     conf = {'bootstrap.servers': 'localhost:9092',
             'group.id': 'hallel_group',
             'auto.offset.reset': 'smallest'}
@@ -21,4 +21,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main("hgi")
