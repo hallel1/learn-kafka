@@ -2,6 +2,7 @@ from confluent_kafka import Consumer
 
 
 def main(name):
+
     conf = {'bootstrap.servers': 'localhost:9092',
             'group.id': 'hallel_group',
             'auto.offset.reset': 'smallest'}
@@ -22,3 +23,4 @@ def main(name):
 
 if __name__ == '__main__':
     main("test")
+
